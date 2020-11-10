@@ -15,7 +15,7 @@ body {
   border-radius: 10px;
 }
 
-#drawersTable {
+.drawersTable {
   background-image: url(./drawers.jpg);
   background-size: cover;
   width: 300px;
@@ -24,13 +24,13 @@ body {
   border-bottom-left-radius: 10px;
 }
 
-#titleDiv {
+.titleDiv {
   padding-top: 20px;
   padding-left: 340px;
   width: 375px;
 }
 
-#paragDiv {
+.paragDiv {
   padding-left: 340px;
   width: 375px;
 }
@@ -48,4 +48,41 @@ p {
   color: hsl(214, 17%, 51%);
   font-size: 13px;
   line-height: 1.7;
+}
+
+.userShare {
+  width: 100%;
+  padding-left: 340px;
+}
+
+.userName {
+  width: 25%;
+  padding-left: 340px;
+}
+
+div.grid {
+  padding-top: 10px;
+  padding-left: 260px;
+  width: 500px;
+}
+
+div.grid div {
+  float: left;
+  height: 80px;
+}
+div.UserAvatar {
+  padding-left: 40px;
+  width: 100px;
+}
+div.col300 {
+  padding-left: 20px;
+  width: 100px;
+}
+div.userName {
+  padding-left: 10px;
+  width: 200px;
+}
+
+div.clear {
+  clear: both;
 }
