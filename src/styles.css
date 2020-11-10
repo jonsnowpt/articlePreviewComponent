@@ -1,4 +1,51 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap");
+
+body {
+  background-color: #edf2f8;
+}
+
+#mainDiv {
+  width: 780px;
+  height: 300px;
+  background: white;
+  box-shadow: 0 10px 40px 0 rgba(209, 209, 209, 0.171),
+    0 6px 20px 0 rgba(189, 189, 189, 0.158);
+  margin: auto;
+  border-radius: 10px;
+}
+
+#drawersTable {
+  background-image: url(./drawers.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#titleDiv {
+  padding-top: 20px;
+  padding-left: 340px;
+  width: 375px;
+}
+
+#paragDiv {
+  padding-left: 340px;
+  width: 375px;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  font-size: 22px;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+  font-size: 13px;
+  line-height: 1.7;
 }
