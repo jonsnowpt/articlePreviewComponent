@@ -74,15 +74,44 @@ div.UserAvatar {
   padding-left: 40px;
   width: 100px;
 }
-div.col300 {
-  padding-left: 20px;
-  width: 100px;
+div.buttonDiv {
+  padding-top: 5px;
+  padding-left: 100px;
+  width: 40px;
 }
 div.userName {
-  padding-left: 10px;
+  padding-top: 5px;
+  padding-left: 2px;
   width: 200px;
+  font-family: "Manrope", sans-serif;
+  font-size: 11pt;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
 }
 
 div.clear {
   clear: both;
+}
+
+.dateUser {
+  position: absolute;
+  margin-top: -45px;
+  width: 100px;
+  padding-left: 400px;
+  font-family: "Manrope", sans-serif;
+  font-size: 11pt;
+  font-weight: 500;
+  color: hsl(212, 23%, 69%);
+}
+
+.buttonShare {
+  background-image: url(./icon-share.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: 0px;
+  border-radius: 100px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
 }

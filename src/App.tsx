@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./styles.css";
 import UserAvatar from "react-user-avatar";
+import PopoverDemo from "./popover";
 
 export default function App() {
   return (
@@ -28,9 +29,15 @@ export default function App() {
             />
           </div>
           <div className="userName">Michelle Appleton</div>
-          <div className="col300">300 pixels</div>
+          <div className="buttonDiv">
+            <button className="buttonShare"></button>
+          </div>
         </div>
         <div className="clear"></div>
+      </div>
+      <div className="dateUser">28 Jun 2020</div>
+      <div>
+        <PopoverDemo />
       </div>
     </div>
   );

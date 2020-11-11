@@ -8,6 +8,7 @@
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-scripts": "3.3.0",
+    "react-simple-popover": "0.2.4",
     "react-user-avatar": "1.10.0"
   },
   "devDependencies": {
