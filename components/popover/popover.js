@@ -1,33 +1,27 @@
+import React from "react";
 import { Popover, Whisper, Button } from "rsuite";
-import { PreventOverflowContainer } from "./PreventOverflowContainer";
+import PreventOverflowContainer from "./PreventOverflowContainer";
+import "../../src/styles.css";
 
 const speaker = (
-  <Popover title="Title" style={{ width: 200 }}>
-    <p>This is a defalut Popover </p>
-    <p>Content</p>
+  <Popover className="whisperStyle">
+    <div class="newGrid">
+      <div class="textCont">SHARE</div>
+      <div class="faceShare">2</div>
+      <div class="twitterShare">3</div>
+      <div class="pinterShare">1</div>
+    </div>
   </Popover>
 );
 
 const AppPop = () => (
   <PreventOverflowContainer height={300}>
     {(getContainer) => (
-      <Whisper
-        preventOverflow
-        trigger="click"
-        container={getContainer}
-        speaker={speaker}
-        placement="auto"
-      >
+      <Whisper trigger="hover" delayShow="400" speaker={speaker} enterable>
         <Button appearance="primary">Click</Button>
       </Whisper>
     )}
   </PreventOverflowContainer>
 );
-
-/*
-const PopTest = () => {
-  return <AppPop />;
-};
-*/
 
 export default AppPop;
