@@ -211,3 +211,125 @@ div.pinterShare {
 div.clear {
   clear: both;
 }
+
+/*Mobile CSS 768px*/
+
+@media only screen and (max-width: 768px) {
+  #mainDiv {
+    margin: auto;
+    box-sizing: border-box;
+    height: 530px;
+    width: 355px;
+    margin-bottom: 20px;
+    border: 1px solid #e6ecf0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 14px 0 #f0f0f8;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .drawersTable {
+    background-image: url(./drawers.jpg);
+    background-size: cover;
+    width: 355px;
+    height: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .titleDiv {
+    padding-top: 220px;
+    padding-left: 30px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .paragDiv {
+    padding-left: 30px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .userShare {
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .userName {
+    width: 25%;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid {
+    padding-top: 10px;
+    padding-left: 0px;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.grid div {
+    float: left;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.UserAvatar {
+    padding-left: 15px;
+    width: 75px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.buttonDiv {
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.userName {
+    padding-top: 5px;
+    padding-left: 0px;
+    width: 130px;
+    font-family: "Manrope", sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dateUser {
+    position: absolute;
+    width: 100px;
+    padding-top: 320px;
+    padding-left: 90px;
+    font-family: "Manrope", sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+    color: hsl(212, 23%, 69%);
+  }
+}
