@@ -2,14 +2,23 @@ import React from "react";
 import { Popover, Whisper, Button } from "rsuite";
 import PreventOverflowContainer from "./PreventOverflowContainer";
 import "../../src/styles.css";
+import facebookShare from "../../public/icon-facebook.svg";
+import twitterShare from "../../public/icon-twitter.svg";
+import pinterkShare from "../../public/icon-pinterest.svg";
 
 const speaker = (
-  <Popover className="whisperStyle">
+  <Popover className="arrow_box">
     <div className="newGrid">
       <div className="textCont">SHARE</div>
-      <div className="faceShare">2</div>
-      <div className="twitterShare">3</div>
-      <div className="pinterShare">1</div>
+      <div className="faceShare">
+        <img src={facebookShare} alt="Facebook Share" />
+      </div>
+      <div className="twitterShare">
+        <img src={twitterShare} alt="Facebook Share" />
+      </div>
+      <div className="pinterShare">
+        <img src={pinterkShare} alt="Facebook Share" />
+      </div>
     </div>
   </Popover>
 );
