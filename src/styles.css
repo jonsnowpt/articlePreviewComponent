@@ -105,10 +105,26 @@ div.clear {
 }
 
 .buttonShare {
+  margin-top: -80px;
   background-image: url(./icon-share.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%;
+  border: 0px;
+  border-radius: 100px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.buttonShare:hover {
+  margin-top: -80px;
+  background-color: hsl(217, 19%, 35%);
+  background-image: url(./icon-share_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  filter: contrast(80%);
   border: 0px;
   border-radius: 100px;
   width: 36px;

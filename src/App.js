@@ -24,7 +24,7 @@ export default function App() {
           <div className="UserAvatar">
             <UserAvatar
               size="48"
-              name="Will Binns-Smith"
+              name="Michelle Appleton"
               src="./avatar-michelle.jpg"
             />
           </div>
