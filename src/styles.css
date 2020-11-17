@@ -132,6 +132,10 @@ div.clear {
   cursor: pointer;
 }
 
+.buttonDivMobile {
+  display: none;
+}
+
 .arrow_box {
   position: absolute;
   margin-left: -160px;
@@ -212,6 +216,11 @@ div.clear {
   clear: both;
 }
 
+.shareMobile {
+  padding-top: 200px;
+  width: 200px;
+}
+
 /*Mobile CSS 768px*/
 
 @media only screen and (max-width: 768px) {
@@ -242,9 +251,9 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   .titleDiv {
-    padding-top: 220px;
+    padding-top: 250px;
     padding-left: 30px;
-    width: 250px;
+    width: 300px;
   }
 }
 
@@ -261,7 +270,7 @@ div.clear {
 @media only screen and (max-width: 768px) {
   .paragDiv {
     padding-left: 30px;
-    width: 250px;
+    width: 300px;
   }
 }
 
@@ -303,8 +312,9 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   div.buttonDiv {
+    display: none;
     padding-top: 5px;
-    padding-left: 20px;
+    padding-left: 65px;
     width: 10px;
   }
 }
@@ -325,11 +335,30 @@ div.clear {
   .dateUser {
     position: absolute;
     width: 100px;
-    padding-top: 320px;
+    padding-top: 292px;
     padding-left: 90px;
     font-family: "Manrope", sans-serif;
     font-size: 11pt;
     font-weight: 500;
     color: hsl(212, 23%, 69%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .buttonDivMobile {
+    display: block;
+    padding-top: 28px;
+    padding-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .shareMobile {
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    margin-left: -280px;
+    margin-top: -40px;
+    width: 100px;
+    z-index: 1;
   }
 }

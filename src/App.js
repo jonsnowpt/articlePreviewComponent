@@ -1,7 +1,25 @@
-import * as React from "react";
 import "./styles.css";
 import UserAvatar from "react-user-avatar";
 import AppPop from "../components/popover/popover";
+import React, { useState } from "react";
+
+const ShowDiv = () => {
+  const [showDiv, setShowDiv] = useState(false);
+
+  return (
+    <div>
+      {showDiv && (
+        <div id="shareMobile" className="shareMobile">
+          PLEASE HIDE ME
+        </div>
+      )}
+      <button
+        className="buttonShare"
+        onMouseOver={() => setShowDiv(!showDiv)}
+      ></button>
+    </div>
+  );
+};
 
 export default function App() {
   return (
@@ -30,8 +48,10 @@ export default function App() {
           </div>
           <div className="userName">Michelle Appleton</div>
           <div className="buttonDiv">
-            {/* <button className="buttonShare"></button>  */}
             <AppPop />
+          </div>
+          <div className="buttonDivMobile">
+            <ShowDiv />
           </div>
         </div>
         <div className="clear"></div>
