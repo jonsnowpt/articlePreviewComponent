@@ -3,11 +3,11 @@ import UserAvatar from "react-user-avatar";
 import AppPop from "../components/popover/popover";
 import React, { useState } from "react";
 
-const ShowDiv = () => {
+/*const ShowDiv = () => {
   const [showDiv, setShowDiv] = useState(false);
 
   return (
-    <div>
+    <div className="showDivMain">
       {showDiv && (
         <div id="shareMobile" className="shareMobile">
           PLEASE HIDE ME
@@ -19,7 +19,7 @@ const ShowDiv = () => {
       ></button>
     </div>
   );
-};
+};*/
 
 export default function App() {
   return (
@@ -50,9 +50,7 @@ export default function App() {
           <div className="buttonDiv">
             <AppPop />
           </div>
-          <div className="buttonDivMobile">
-            <ShowDiv />
-          </div>
+          <div className="buttonDivMobile">{/*           <ShowDiv /> */}</div>
         </div>
         <div className="clear"></div>
       </div>

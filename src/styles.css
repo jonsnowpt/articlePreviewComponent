@@ -217,6 +217,7 @@ div.clear {
 }
 
 .shareMobile {
+  display: none;
   padding-top: 200px;
   width: 200px;
 }
@@ -312,7 +313,7 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   div.buttonDiv {
-    display: none;
+    display: block;
     padding-top: 5px;
     padding-left: 65px;
     width: 10px;
@@ -329,6 +330,98 @@ div.clear {
     font-weight: 700;
     color: hsl(217, 19%, 35%);
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .buttonShare {
+    margin-top: -80px;
+    background-image: url(./icon-share.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: 0px;
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.newGrid {
+    width: 275px;
+  }
+  div.newGrid div {
+    float: left;
+    height: 55px;
+  }
+  div.textCont {
+    width: 20px;
+    padding-left: 40px;
+    padding-top: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    color: #9faec3;
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+
+  div.faceShare {
+    padding-left: 85px;
+    padding-top: 15px;
+    width: 20px;
+    cursor: pointer;
+  }
+  div.twitterShare {
+    padding-left: 15px;
+    padding-top: 17px;
+    width: 20px;
+    cursor: pointer;
+  }
+  div.pinterShare {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 20px;
+    cursor: pointer;
+  }
+  div.clear {
+    clear: both;
+  }
+
+  .arrow_box {
+    position: absolute;
+    margin-left: -300px;
+    margin-top: -80px;
+    background-color: #48556b;
+    border-radius: 12px;
+    height: 55px;
+    width: 275px;
+    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  .arrow_box:after {
+    border-color: rgba(72, 85, 107, 0);
+    border-top-color: #48556b;
+    border-width: 20px;
+    margin-left: -20px;
+    box-shadow: 2px 30px 30px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .arrow_box:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+}
+
+.shareMobile {
+  display: none;
+  padding-top: 200px;
+  width: 200px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -352,13 +445,30 @@ div.clear {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .shareMobile {
-    position: absolute;
-    background-color: hsl(217, 19%, 35%);
-    margin-left: -280px;
-    margin-top: -40px;
-    width: 100px;
-    z-index: 1;
+/* @media only screen and (max-width: 768px) {
+  .showDivMain {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 355px;
+    height: 300px;
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  .shareMobile {
+    display: block;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -70px;
+    margin-top: -238px;
+    margin-bottom: 200px;
+    width: 355px;
+    z-index: 1;
+    border-radius: 8px;
+  }
+}
+*/
