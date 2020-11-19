@@ -1,7 +1,7 @@
 import React from "react";
 import { Popover, Whisper, Button } from "rsuite";
 import PreventOverflowContainer from "./PreventOverflowContainer";
-import "../../src/styles.css";
+import "../../styles.css";
 import facebookShare from "../../public/icon-facebook.svg";
 import twitterShare from "../../public/icon-twitter.svg";
 import pinterkShare from "../../public/icon-pinterest.svg";
