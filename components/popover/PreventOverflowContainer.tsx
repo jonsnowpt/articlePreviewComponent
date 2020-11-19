@@ -1,7 +1,7 @@
 import React, { CSSProperties } from "react";
 
 const containerStyle: CSSProperties = {
-  overflow: "auto",
+  overflow: "hidden",
   position: "relative"
 };
 const contentStyle: CSSProperties = {

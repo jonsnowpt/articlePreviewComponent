@@ -13,6 +13,7 @@ body {
     0 6px 20px 0 rgba(189, 189, 189, 0.158);
   margin: auto;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .drawersTable {
@@ -64,6 +65,7 @@ div.grid {
   padding-top: 10px;
   padding-left: 260px;
   width: 550px;
+  overflow: hidden;
 }
 
 div.grid div {
@@ -228,13 +230,14 @@ div.clear {
   #mainDiv {
     margin: auto;
     box-sizing: border-box;
-    height: 530px;
+    height: 520px;
     width: 355px;
     margin-bottom: 20px;
     border: 1px solid #e6ecf0;
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0 2px 14px 0 #f0f0f8;
+    overflow: hidden;
   }
 }
 
@@ -294,6 +297,7 @@ div.clear {
     padding-top: 10px;
     padding-left: 0px;
     width: 550px;
+    overflow: hidden;
   }
 }
 
@@ -301,6 +305,7 @@ div.clear {
   div.grid div {
     float: left;
     height: 80px;
+    overflow: hidden;
   }
 }
 
@@ -313,10 +318,11 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   div.buttonDiv {
-    display: block;
     padding-top: 5px;
-    padding-left: 65px;
-    width: 10px;
+    padding-left: 70px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
   }
 }
 
@@ -334,7 +340,7 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   .buttonShare {
-    margin-top: -80px;
+    margin-top: 0px;
     background-image: url(./icon-share.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -343,6 +349,8 @@ div.clear {
     border-radius: 100px;
     width: 36px;
     height: 36px;
+    margin-top: -80px;
+    z-index: 2;
     cursor: pointer;
   }
 }
@@ -358,7 +366,7 @@ div.clear {
   div.textCont {
     width: 20px;
     padding-left: 40px;
-    padding-top: 16px;
+    padding-top: 25px;
     font-family: "Manrope", sans-serif;
     font-weight: 500;
     color: #9faec3;
@@ -368,19 +376,19 @@ div.clear {
 
   div.faceShare {
     padding-left: 85px;
-    padding-top: 15px;
+    padding-top: 25px;
     width: 20px;
     cursor: pointer;
   }
   div.twitterShare {
     padding-left: 15px;
-    padding-top: 17px;
+    padding-top: 27px;
     width: 20px;
     cursor: pointer;
   }
   div.pinterShare {
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 25px;
     width: 20px;
     cursor: pointer;
   }
@@ -390,23 +398,24 @@ div.clear {
 
   .arrow_box {
     position: absolute;
-    margin-left: -300px;
-    margin-top: -80px;
+    margin-left: -326px;
+    margin-top: 1px;
     background-color: #48556b;
-    border-radius: 12px;
-    height: 55px;
-    width: 275px;
-    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 12px 12px;
+    height: 70px;
+    width: 353px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   }
   .arrow_box:after {
+    display: none;
     border-color: rgba(72, 85, 107, 0);
     border-top-color: #48556b;
     border-width: 20px;
     margin-left: -20px;
-    box-shadow: 2px 30px 30px 1px rgba(0, 0, 0, 0.2);
   }
 
   .arrow_box:before {
+    display: none;
     top: 100%;
     left: 50%;
     border: solid transparent;
@@ -444,31 +453,3 @@ div.clear {
     padding-left: 70px;
   }
 }
-
-/* @media only screen and (max-width: 768px) {
-  .showDivMain {
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 355px;
-    height: 300px;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  .shareMobile {
-    display: block;
-    position: absolute;
-    background-color: hsl(217, 19%, 35%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -70px;
-    margin-top: -238px;
-    margin-bottom: 200px;
-    width: 355px;
-    z-index: 1;
-    border-radius: 8px;
-  }
-}
-*/
