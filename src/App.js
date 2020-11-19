@@ -1,25 +1,7 @@
 import "./styles.css";
 import UserAvatar from "react-user-avatar";
-import AppPop from "../components/popover/popover";
-import React, { useState } from "react";
-
-/*const ShowDiv = () => {
-  const [showDiv, setShowDiv] = useState(false);
-
-  return (
-    <div className="showDivMain">
-      {showDiv && (
-        <div id="shareMobile" className="shareMobile">
-          PLEASE HIDE ME
-        </div>
-      )}
-      <button
-        className="buttonShare"
-        onMouseOver={() => setShowDiv(!showDiv)}
-      ></button>
-    </div>
-  );
-};*/
+import AppPop from "./components/popover/popover";
+import React from "react";
 
 export default function App() {
   return (
