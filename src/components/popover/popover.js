@@ -27,7 +27,7 @@ const AppPop = () => (
   <PreventOverflowContainer height={300}>
     {(getContainer) => (
       <Whisper trigger="click" delayShow="400" speaker={speaker} enterable>
-        <Button className="buttonShare"></Button>
+        <Button name="Share Social Media" className="buttonShare"></Button>
       </Whisper>
     )}
   </PreventOverflowContainer>
