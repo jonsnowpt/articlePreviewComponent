@@ -1,10 +1,10 @@
 import React from "react";
 import { Popover, Whisper, Button } from "rsuite";
 import PreventOverflowContainer from "./PreventOverflowContainer";
-import "../../styles.css";
-import facebookShare from "../../public/icon-facebook.svg";
-import twitterShare from "../../public/icon-twitter.svg";
-import pinterkShare from "../../public/icon-pinterest.svg";
+import "../../../src/styles.css";
+import facebookShare from "../../assets/icon-facebook.svg";
+import twitterShare from "../../assets/icon-twitter.svg";
+import pinterkShare from "../../assets/icon-pinterest.svg";
 
 const speaker = (
   <Popover className="arrow_box">

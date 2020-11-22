@@ -2,6 +2,7 @@ import "./styles.css";
 import UserAvatar from "react-user-avatar";
 import AppPop from "./components/popover/popover";
 import React from "react";
+import avatarMichelle from "./assets/avatar-michelle.jpg";
 
 export default function App() {
   return (
@@ -25,7 +26,7 @@ export default function App() {
             <UserAvatar
               size="48"
               name="Michelle Appleton"
-              src="./avatar-michelle.jpg"
+              src={avatarMichelle}
             />
           </div>
           <div className="userName">Michelle Appleton</div>

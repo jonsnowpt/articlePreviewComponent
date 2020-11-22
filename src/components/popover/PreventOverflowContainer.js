@@ -1,10 +1,10 @@
-import React, { CSSProperties } from "react";
+import React from "react";
 
-const containerStyle: CSSProperties = {
+const containerStyle = {
   overflow: "hidden",
   position: "relative"
 };
-const contentStyle: CSSProperties = {
+const contentStyle = {
   height: "400%",
   width: "230%",
   justifyContent: "center",
@@ -13,17 +13,9 @@ const contentStyle: CSSProperties = {
   flexWrap: "wrap"
 };
 
-interface PreventOverflowContainerProps {
-  children: React.ReactChildren;
-  height?: number;
-}
-
-const PreventOverflowContainer = ({
-  children,
-  height = 500
-}: PreventOverflowContainerProps) => {
-  const containerRef = React.createRef<HTMLDivElement>();
-  const contentRef = React.createRef<HTMLDivElement>();
+const PreventOverflowContainer = ({ children, height = 500 }) => {
+  const containerRef = React.createRef();
+  const contentRef = React.createRef();
 
   React.useEffect(() => {
     containerRef.current.scrollTop = contentRef.current.clientHeight / 2 - 60;
@@ -34,11 +26,11 @@ const PreventOverflowContainer = ({
   return (
     <div
       id="preventOverflowContainer"
-      style={{ ...containerStyle, height } as CSSProperties}
+      style={{ ...containerStyle, height }}
       ref={containerRef}
     >
       <div style={contentStyle} ref={contentRef}>
-        {(children as any)(() => containerRef.current)}
+        {children(() => containerRef.current)}
       </div>
     </div>
   );
