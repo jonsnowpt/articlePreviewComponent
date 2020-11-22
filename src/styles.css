@@ -17,7 +17,7 @@ body {
   position: relative;
   margin: auto;
   top: 50%;
-  transform: translateY(100%);
+  transform: translateY(90%);
 }
 
 .drawersTable {
