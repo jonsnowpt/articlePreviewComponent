@@ -3,6 +3,7 @@
 
 body {
   background-color: #edf2f8;
+  height: 100%;
 }
 
 #mainDiv {
@@ -11,9 +12,12 @@ body {
   background: white;
   box-shadow: 0 10px 40px 0 rgba(209, 209, 209, 0.171),
     0 6px 20px 0 rgba(189, 189, 189, 0.158);
-  margin: auto;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(100%);
 }
 
 .drawersTable {
@@ -228,7 +232,10 @@ div.clear {
 
 @media only screen and (max-width: 768px) {
   #mainDiv {
+    position: relative;
     margin: auto;
+    top: 00%;
+    transform: translateY(000%);
     box-sizing: border-box;
     height: 520px;
     width: 355px;
