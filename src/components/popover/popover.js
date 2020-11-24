@@ -6,11 +6,6 @@ import facebookShare from "../../assets/icon-facebook.svg";
 import twitterShare from "../../assets/icon-twitter.svg";
 import pinterkShare from "../../assets/icon-pinterest.svg";
 
-function fakeUrl() {
-  const urlFake = delete speaker.Popover;
-  return urlFake;
-}
-
 const speaker = (
   <Popover className="arrow_box">
     <div className="newGrid">
@@ -24,7 +19,7 @@ const speaker = (
       <div className="pinterShare">
         <img src={pinterkShare} alt="Facebook Share" />
       </div>
-      <div className="shareButtonHover" onClick={fakeUrl}></div>
+      <div className="shareButtonHover"></div>
     </div>
   </Popover>
 );
@@ -33,7 +28,7 @@ const AppPop = () => (
   <PreventOverflowContainer height={300}>
     {(getContainer) => (
       <Whisper trigger="click" delayShow="400" speaker={speaker} enterable>
-        <Button name="Share Social Media" className="buttonShare"></Button>
+        <Button title="Share Social Media" className="buttonShare"></Button>
       </Whisper>
     )}
   </PreventOverflowContainer>
