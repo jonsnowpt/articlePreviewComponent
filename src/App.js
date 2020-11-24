@@ -33,7 +33,7 @@ export default function App() {
           <div className="buttonDiv">
             <AppPop />
           </div>
-          <div className="buttonDivMobile">{/*           <ShowDiv /> */}</div>
+          {/*       <div className="buttonDivMobile">{/*           <ShowDiv /> </div> */}
         </div>
         <div className="clear"></div>
       </div>

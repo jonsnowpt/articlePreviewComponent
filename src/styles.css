@@ -183,7 +183,7 @@ div.clear {
 }
 
 div.newGrid {
-  width: 275px;
+  width: 325px;
 }
 div.newGrid div {
   float: left;
@@ -218,6 +218,7 @@ div.pinterShare {
   width: 20px;
   cursor: pointer;
 }
+
 div.clear {
   clear: both;
 }
@@ -358,18 +359,17 @@ div.clear {
     width: 36px;
     height: 36px;
     margin-top: -80px;
-    z-index: 2;
     cursor: pointer;
   }
 }
 
 @media only screen and (max-width: 768px) {
   div.newGrid {
-    width: 275px;
+    width: 400px;
   }
   div.newGrid div {
     float: left;
-    height: 55px;
+    height: 36px;
   }
   div.textCont {
     width: 20px;
@@ -400,6 +400,22 @@ div.clear {
     width: 20px;
     cursor: pointer;
   }
+
+  div.shareButtonHover {
+    margin-top: 16px;
+    background-color: #9faec3;
+    background-image: url(./assets/icon-share.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: 0px;
+    border-radius: 100px;
+    margin-left: 50px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+
   div.clear {
     clear: both;
   }
