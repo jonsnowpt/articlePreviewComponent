@@ -13,17 +13,18 @@ https://article-preview-component.jonsnowpt.vercel.app/
 
 ### Tek
 
-<div>
-  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" alt="React" align="left">
+<table>
+<div style="margin-left: 5px;">
+  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" alt="React">
   </div>
-  <div>
-  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/23_-_CSS_File_Flat-512.svg" alt="CSS" align="left">
+  <div style="padding-left: 5px;">
+  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/23_-_CSS_File_Flat-512.svg" alt="CSS">
   </div>
     <div>
-  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/760858_html_512x512.svg" alt="HTML" align="left">
+  <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/760858_html_512x512.svg" alt="HTML">
   </div>
-
-
+  </table>
+  
 
 ### Software
 
