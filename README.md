@@ -15,10 +15,10 @@ https://article-preview-component.jonsnowpt.vercel.app/
 
 <table>
   <tr>
-    <td valign="top">
+    <td valign="top" border="0">
      <p align="center">
       <a href="https://reactjs.org/">
-        <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" align="center border="0" />
+        <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" align="center/>
       </a>
       <br/><br/>
       <span>React</span>
