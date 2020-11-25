@@ -19,5 +19,5 @@ https://article-preview-component.jonsnowpt.vercel.app/
 
 ### Goals
 
-- :Putting React learning into practice
-- :Understand some concepts in practice
+- Putting React learning into practice
+- Understand some concepts in practice
