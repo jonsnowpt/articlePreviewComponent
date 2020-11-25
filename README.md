@@ -15,7 +15,7 @@ https://article-preview-component.jonsnowpt.vercel.app/
 
 <table>
   <tr>
-    <td valign="top" border="0">
+    <td valign="top" border="0px">
      <p align="center">
       <a href="https://reactjs.org/">
         <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" align="center/>
