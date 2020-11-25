@@ -15,7 +15,7 @@ https://article-preview-component.jonsnowpt.vercel.app/
 
 <table>
   <tr>
-    <td valign="top" border=none;>
+    <td valign="top" cellspacing="0">
      <p align="center">
       <a href="https://github.com/daltonmenezes/aura-theme/tree/master/packages/vscode">
         <img src="https://github.com/daltonmenezes/assets/blob/master/images/icons/vscode.png?raw=true" align="center" />
