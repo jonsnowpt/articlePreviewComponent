@@ -18,13 +18,12 @@ https://article-preview-component.jonsnowpt.vercel.app/
     <td valign="top">
      <p align="center">
       <a href="https://reactjs.org/">
-        <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" align="center" />
+        <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" align="center border="0" />
       </a>
       <br/><br/>
       <span>React</span>
       </p>
     </td>
-   
   </tr>
  </table>
 
