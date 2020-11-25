@@ -14,7 +14,7 @@ https://article-preview-component.jonsnowpt.vercel.app/
 ### Tek
 
 <table>
-<div style="margin-left: 5px;">
+<div style="margin-left: 5px; align: center;">
   <img src="https://github.com/jonsnowpt/articlePreviewComponent/blob/main/src/assets/1280px-React-icon.svg" alt="React">
   </div>
   <div style="padding-left: 5px;">
