@@ -1,3 +1,4 @@
+<div style="display: block; margin: auto;">
 <p>
       <img
         style="display: block; margin-left: auto; margin-right: auto;"
@@ -20,3 +21,4 @@
         Demo on Vercel
       </a>
     </h3>
+    </div>
