@@ -46,5 +46,3 @@
 
     ### Software ### Goals - Putting React learning into practice - Understand
     some concepts in practice
-  </body>
-</html>
