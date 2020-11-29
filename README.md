@@ -52,7 +52,6 @@
        <h2>
           Stack
          </h2>
-           <table>
                <td>
                <div style="margin-left: 5px; align: left; padding-right: 10px;">
                  <img
@@ -77,4 +76,3 @@
                       />
                   </div>
                 </td>
-             </table>
