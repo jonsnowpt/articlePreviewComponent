@@ -15,7 +15,7 @@
     </h3>
     <h3 align="center" ;">
       <a
-        href="https://www.frontendmentor.io/solutions/react-js-using-css-qiZ4xTBsy"
+        href="https://article-preview-component-pzuqa671u.vercel.app"
       >
         Demo on Vercel
       </a>
