@@ -49,3 +49,32 @@
         </div>
       </td>
       </table>
+       <h2>
+          Stack
+         </h2>
+           <table>
+               <td>
+               <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                 <img
+                   src="https://img.shields.io/badge/react-17.0.1-brightgreen"
+                   alt="React"
+                   />
+               </div>
+             </td>
+             <td>
+                <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                  <img
+                    src="https://img.shields.io/badge/react--user--avatar-1.10.0-red"
+                    alt="React"
+                    />
+                </div>
+              </td>
+              <td>
+                  <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                    <img
+                      src="https://img.shields.io/badge/rsuite-4.8.4-orange"
+                      alt="React"
+                      />
+                  </div>
+                </td>
+             </table>
