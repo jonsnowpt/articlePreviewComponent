@@ -1,4 +1,4 @@
- <p align="center" ;>
+<p align="center" ;>
       <img
         style="display: block; margin-left: auto; margin-right: auto;"
         src="./src/assets/frontendmentor_project-min.jpg"
@@ -20,3 +20,32 @@
         Demo on Vercel
       </a>
     </h3>
+  <h2>
+   tek
+  </h2>
+    <table>
+        <td>
+        <div style="margin-left: 5px; align: left; padding-right: 10px;">
+          <img
+            src="./src/assets/1280px-React-icon.svg"
+            alt="React"
+            />
+        </div>
+      </td>
+        <td>
+        <div style="margin-left: 5px; align: left; padding-right: 10px;">
+          <img
+            src="./src/assets/23_-_CSS_File_Flat-512.svg"
+            alt="CSS"
+          />
+        </div>
+      </td>
+      <td>
+        <div style="margin-left: 5px; align: left; padding-right: 10px;">
+          <img
+            src="./src/assets/760858_html_512x512.svg"
+            alt="HTML"
+          />
+        </div>
+      </td>
+      </table>
