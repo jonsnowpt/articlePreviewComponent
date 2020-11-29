@@ -6,8 +6,7 @@
         width="70%"
       />
     </p>
-
-    <h3>
+<h3>
       <a
         href="https://www.frontendmentor.io/solutions/react-js-using-css-qiZ4xTBsy"
       >
