@@ -50,35 +50,6 @@
       </td>
       </table>
        <h2>
-                              Used Software
-                            </h2>
-                            <table>
-                                <td>
-                                <div style="margin-left: 5px; align: left; padding-right: 10px;">
-                                  <img
-                                    src="./src/assets/Affinity-Designer_pro.png"
-                                    alt="Affinity"
-                                    />
-                                </div>
-                              </td>
-                                <td>
-                                <div style="margin-left: 5px; align: left; padding-right: 10px;">
-                                  <img
-                                    src="./src/assets/codesandbox.png"
-                                    alt="CodeSandBox"
-                                  />
-                                </div>
-                              </td>
-                              <td>
-                                <div style="margin-left: 5px; align: left; padding-right: 10px;">
-                                  <img
-                                    src="./src/assets/vercel.png"
-                                    alt="Vercel"
-                                  />
-                                </div>
-                              </td>
-                              </table>
-       <h2>
           Stack
          </h2>
                <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
@@ -105,3 +76,32 @@
                      <p>
 - :electric_plug: Putting React learning into practice<br>
 - :wave: Understand some concepts in practice<br></p>
+                        <h2>
+                            Used Software
+                           </h2>
+                           <table>
+                              <td>
+                              <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                                <img
+                                  src="./src/assets/Affinity-Designer_pro.png"
+                                  alt="Affinity"
+                                  />
+                              </div>
+                            </td>
+                              <td>
+                              <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                                <img
+                                  src="./src/assets/codesandbox.png"
+                                  alt="CodeSandBox"
+                                />
+                              </div>
+                            </td>
+                            <td>
+                              <div style="margin-left: 5px; align: left; padding-right: 10px;">
+                                <img
+                                  src="./src/assets/vercel.png"
+                                  alt="Vercel"
+                                />
+                              </div>
+                            </td>
+                            </table>
