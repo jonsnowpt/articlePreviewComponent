@@ -1,4 +1,4 @@
-    <p align="center">
+ <p style="text-align: center;">
       <img
         src="./src/assets/frontendmentor_project-min.jpg"
         alt="Frontend Mentor Project 1"
