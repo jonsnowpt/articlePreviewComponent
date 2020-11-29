@@ -73,13 +73,6 @@
                                     <h2>
                       Project Goals
                      </h2>
-                     <p>There's a bunch of ways you can contribute to this project, like by:<br>
-- :electric_plug: Making a port of this theme for another apps **(ask first, please)**<br>
-- :wave: Requesting a port<br>
-- :beetle: Reporting a bug<br>
-- :page_facing_up: Improving this documentation<br>
-- :rotating_light: Sharing this project and recommending it to your friends<br>
-- :dollar: Supporting this project on Patreon<br>
-- :bug: Funding an issue on IssueHunt<br>
-- :star2: Dropping a star on this repository<br>
-- :thumbsup: Voting on ProductHunt      </p>
+                     <p>
+- :electric_plug: Putting React learning into practice<br>
+- :wave: Understand some concepts in practice<br></p>
