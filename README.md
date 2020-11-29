@@ -76,3 +76,6 @@
                      <p>
 - :electric_plug: Putting React learning into practice<br>
 - :wave: Understand some concepts in practice<br></p>
+                        <h2>
+                            Used Software
+                           </h2>
