@@ -49,34 +49,7 @@
         </div>
       </td>
       </table>
-       <h2>
-          Stack
-         </h2>
-               <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
-                 <img
-                   src="https://img.shields.io/badge/react-17.0.1-brightgreen"
-                   alt="React"
-                   />
-               </div>
-                <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
-                  <img
-                    src="https://img.shields.io/badge/react--user--avatar-1.10.0-red"
-                    alt="React"
-                    />
-                </div>
-                  <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
-                    <img
-                      src="https://img.shields.io/badge/rsuite-4.8.4-orange"
-                      alt="React"
-                      />
-                  </div>
-                                    <h2>
-                      Project Goals
-                     </h2>
-                     <p>
-- :electric_plug: Putting React learning into practice<br>
-- :wave: Understand some concepts in practice<br></p>
-                        <h2>
+                              <h2>
                             Used Software
                            </h2>
                            <table>
@@ -105,3 +78,30 @@
                               </div>
                             </td>
                             </table>
+       <h2>
+          Stack
+         </h2>
+               <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
+                 <img
+                   src="https://img.shields.io/badge/react-17.0.1-brightgreen"
+                   alt="React"
+                   />
+               </div>
+                <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
+                  <img
+                    src="https://img.shields.io/badge/react--user--avatar-1.10.0-red"
+                    alt="React"
+                    />
+                </div>
+                  <div style="margin-left: 5px; align: left; padding-right: 10px; padding-bottom: 10px;">
+                    <img
+                      src="https://img.shields.io/badge/rsuite-4.8.4-orange"
+                      alt="React"
+                      />
+                  </div>
+                                    <h2>
+                      Project Goals
+                     </h2>
+                     <p>
+- :electric_plug: Putting React learning into practice<br>
+- :wave: Understand some concepts in practice<br></p>
