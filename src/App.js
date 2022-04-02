@@ -10,15 +10,14 @@ export default function App() {
       <div className="drawersTable">
         <div className="titleDiv">
           <h1 className="mainTtile">
-            Shift the overall look and feel by adding these wonderful touches to
-            furniture in your home
+            Best sports platforms!
           </h1>
         </div>
         <div className="paragDiv">
           <p>
-            Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. I’ve got some simple tips to help
-            you make any room feel complete.
+            - <a href="https://www.betarena.com">Betarena</a>;
+            - <a href="https://scores.betarena.com">Scores Betarena</a>;
+            - <a href="https://apostas.betarena.com">Apostas Betarena</a>;
           </p>
         </div>
         <div className="grid">
